@@ -15,6 +15,7 @@ A Natural Language Processing model trained with over 1,00,000 (1 Lakh) names is
    https://github.com/vishaldas72/Gender_Prediction
 
 3.Install the Packages:
+
   pip install -r requirements.txt
 
 4.At last, Go to 3.7 Python interpreter(Make Sure to create virtual env).
@@ -22,7 +23,11 @@ A Natural Language Processing model trained with over 1,00,000 (1 Lakh) names is
   #Import app as l in any python file/Interpreter(note it is present in the same directory)
 
   import app as l
+  
   print(l.gender("vishal"))
+  
   #Output will be 1 which means male
+  
   print(l.gender("sudha"))
+  
   #Output will be 0 which means female
